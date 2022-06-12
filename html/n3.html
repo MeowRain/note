@@ -65,5 +65,33 @@
     <td><a href="#">贴吧</a></td>
 </tr>
     </table>
+
+
+    <!-- 合并单元格实例 -->
+    <table border="1px" align="center" >
+        <tr>
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>学龄</th>
+        </tr>
+        <tr>
+            <td>RAIN</td>
+            <td>18</td>
+            <td rowspan="3">4</td>
+            <!-- 使用rowspan。我们成功合并了行 -->
+        </tr>
+        <tr>
+            <td>rain</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>mike</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <th colspan="3">来自meowrain</th>  
+            <!-- 用colspan，我们成功合并了下面列的三个单元格 -->
+        </tr>
+    </table>
 </body>
 </html>
